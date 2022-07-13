@@ -1,0 +1,1 @@
+!function(){var d=document.getElementById("retryurl"),e=document.getElementById("baseurl");let f=localStorage.getItem("datatoken"),c=localStorage.getItem("baseurl");d.value=c,e.value=c;var a=document.querySelector('input[name="burl"]'),b=a.value.replace(/generatepage.html/g,"downloadpage.html");a.value=b;var b=a.value.replace(/token=/g,f+"=");a.value=b}()
